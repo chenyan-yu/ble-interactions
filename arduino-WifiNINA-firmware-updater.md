@@ -25,8 +25,6 @@
 
 9. Select the Serial Port for your board. The latest version of firmware for the NINA will be automatically selected.
 
-<img src="https://user-images.githubusercontent.com/5662216/55283583-98e41500-5334-11e9-86ac-63a2a89302ae.png" alt="Firmware Updater screenshot" width = "500">
-
 10. Click the "Update Firmware" button, and wait for the update to complete.
 
 <img src="https://user-images.githubusercontent.com/5662216/55283585-9bdf0580-5334-11e9-9845-f90c2ee69065.png" alt="Firmware Updater success screenshot" width = "500">
