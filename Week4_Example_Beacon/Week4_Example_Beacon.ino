@@ -4,6 +4,7 @@ const int BUTTON_PIN = 3;
 
 void setup()
 {
+  Serial.begin(9600);
   pinMode( BUTTON_PIN, INPUT );
   BLE.setLocalName("Beacon");
   BLE.begin();
@@ -22,6 +23,7 @@ void loop()
   if ( oldButtonState != buttonState )
   {
     oldButtonState = buttonState;
+    Serial.println(buttonState);
 
     data[0] = ( uint8_t ) buttonState;
 
